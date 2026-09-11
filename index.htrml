@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Pong com Placar e Som</title>
+    <!-- Vinculando o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pong - Educação Digital</h1>
+    <p>Use as teclas <b>W</b> (Sobe) e <b>S</b> (Desce)</p>
+
+    <!-- Placar do Jogo -->
+    <div id="placar">
+        <span id="pontosJogador">0</span> : <span id="pontosComputador">0</span>
+    </div>
+
+    <!-- Tela do Jogo -->
+    <canvas id="telaJogo" width="600" height="400"></canvas>
+
+    <!-- Vinculando o arquivo de lógica JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
